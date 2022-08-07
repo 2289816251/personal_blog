@@ -1,0 +1,53 @@
+{
+    "avatar":"http://localhost:8080/img/profilePicture.9fc9853a.jpg",
+    "introduce":"Hello, welcome to my personal blog, persistence is my mantra, not giving up is the desire for the future, oops, I forgot to introduce myself, I am a funny and introverted young man, if you want to know more about me, then Hurry up to find me a friend!",
+    "userInfo":[
+        {
+            "label":"Name/NickName",
+            "value":"Capricornus"
+        },
+        {
+            "label":"place of residence",
+            "value":"Hunan - Shaoyang"
+        },
+        {
+            "label":"Education",
+            "value":"Specialist"
+        },
+        {
+            "label":"graduated school",
+            "value":"Hunan Automotive Engineering Vocational College",
+            "url":"http://www.hnqczy.com/Index.html"
+        },
+        {
+            "label":"WeChat",
+            "value":"H18593487605"
+        },
+        {
+            "label":"Mail",
+            "value":"2289816251@qq.com"
+        }
+    ],
+    "skill":[
+        {
+            "label":"HTML",
+            "value":80
+        },
+        {
+            "label":"CSS",
+            "value":80
+        },
+        {
+            "label":"JavaScript",
+            "value":80
+        },
+        {
+            "label":"VUE全家桶",
+            "value":60
+        },
+        {
+            "label":"TypeScript",
+            "value":0
+        }
+    ]
+}
