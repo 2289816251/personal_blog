@@ -1,0 +1,51 @@
+#top {
+  transform: translateY(0%);
+  transition: all 0.5s;
+}
+.topAnimation {
+  animation: top 1s ease-in-out;
+}
+@keyframes top {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1 !important;
+    transform: translateY(0%);
+  }
+}
+#left {
+  transform: translateY(0%);
+  transition: all 0.5s;
+}
+.leftAnimation {
+  animation: left 1s ease-in-out;
+}
+@keyframes left {
+  0% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  100% {
+    opacity: 1 !important;
+    transform: translateX(0%);
+  }
+}
+#right {
+  transform: translateY(0%);
+  transition: all 0.5s;
+}
+.rightAnimation {
+  animation: right 1s ease-in-out;
+}
+@keyframes right {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  100% {
+    opacity: 1 !important;
+    transform: translateX(0%);
+  }
+}

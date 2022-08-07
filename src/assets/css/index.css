@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+a:link{
+    color: #1a1a1a;
+}
+a:visited{
+    color: #1a1a1a;
+}
+a:hover{
+    color: #1a1a1a;
+}
+a:active{
+    color: #1a1a1a;
+}
+@font-face{
+    font-family:fontOne;
+    src:url('../font//Frick0.3-Regular-3.otf');
+}
+@font-face{
+    font-family:fontTwo;
+    src:url('../font/Collins-Butter-2.otf');
+}
+@font-face{
+    font-family:fontThree;
+    src:url('../font/Qualy-Bold-2.ttf');
+}
+@font-face{
+    font-family:pfcg;
+    src:url('../font//PingFang-Jian-ChangGuiTi-2.ttf');
+}

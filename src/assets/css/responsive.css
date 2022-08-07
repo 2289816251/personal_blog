@@ -1,0 +1,281 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+html {
+  /* 1rem == 10px */
+  font-size: 62.5%;
+  color: #1a1a1a;
+  font-family: pfcg;
+}
+/* 媒体查询 */
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+  body {
+    font-size: 1.4rem !important;
+  }
+  body .header {
+    max-width: 1200px;
+    margin: 0 auto !important;
+  }
+  body .banner .content {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 160px 0 0 0 !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  body {
+    font-size: 1.4rem !important;
+  }
+  body .header {
+    padding: 0 30px !important;
+  }
+  body .footer {
+    padding: 20px 30px !important;
+  }
+  body .recommend .side .list .item .img {
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+  body .recommend .side .list .item .img img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  body .recommend .side .list .item .content {
+    width: 70%;
+  }
+  body .toolSharing > .content {
+    padding: 0 30px;
+  }
+  body .toolSharing > .content .right .img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  body .toolSharing > .content .right .img img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  body .toolSharing > .content .right .content .describe {
+    display: none;
+  }
+  body .aboutMe > .content {
+    padding: 50px 30px !important;
+  }
+  body .aboutMe > .content .content .footer .list .item .label {
+    overflow: hidden;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    white-space: wrap;
+  }
+  body .aboutMe .skill {
+    padding: 0 30px;
+  }
+  body .aboutMe .skill .list .item .label {
+    width: 16% !important;
+  }
+  body .aboutMe .skill .list .item .value {
+    width: 84% !important;
+  }
+  body .class .menu {
+    padding: 0px 30px;
+  }
+  body .banner {
+    height: 480px !important;
+  }
+  body .banner .content {
+    padding: 100px 30px 0 !important;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 768px) {
+  body {
+    font-size: 1.4rem !important;
+  }
+  body .header {
+    padding: 0 30px !important;
+  }
+  body .header .search input {
+    width: 88% !important;
+  }
+  body .header .search svg {
+    width: 12% !important;
+  }
+  body .class .menu {
+    padding: 0px 30px;
+  }
+  body .toolSharing > .content {
+    padding: 0 30px;
+  }
+  body .toolSharing > .content .right .img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  body .toolSharing > .content .right .img img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  body .toolSharing > .content .right .content .describe {
+    display: none;
+  }
+  body .aboutMe .top .content .center {
+    font-size: 3.2rem !important;
+  }
+  body .aboutMe .top .content .center > .center > span {
+    margin: 0 10px !important;
+  }
+  body .aboutMe .top .content .center .footer {
+    font-size: 1.6rem !important;
+  }
+  body .aboutMe > .content {
+    padding: 30px 30px !important;
+  }
+  body .aboutMe > .content .avatar {
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+  body .aboutMe > .content .content .footer .list .item {
+    flex-direction: column;
+  }
+  body .aboutMe > .content .content .footer .list .item .label {
+    margin: 0px;
+  }
+  body .aboutMe .skill {
+    padding: 0 30px;
+  }
+  body .aboutMe .skill .list .item .label {
+    width: 22% !important;
+  }
+  body .aboutMe .skill .list .item .value {
+    width: 78% !important;
+  }
+  body .banner {
+    height: 300px !important;
+  }
+  body .banner .content {
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    padding: 0px !important;
+  }
+  body .banner .content .shake {
+    text-align: center;
+  }
+  body .banner .content .shake .describe {
+    display: none;
+  }
+  body .banner .content .shake .button {
+    padding-top: 0px !important;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 550px) {
+  body {
+    font-size: 1.4rem !important;
+  }
+  body .header {
+    padding: 0 20px !important;
+  }
+  body .header .LogInOrRegistered .content {
+    width: 340px !important;
+  }
+  body .header .LogInOrRegistered .content .center input {
+    width: 280px !important;
+  }
+  body .header .LogInOrRegistered .content .center .ant-input-password {
+    width: 280px !important;
+  }
+  body .header .search input {
+    width: 88% !important;
+  }
+  body .header .search svg {
+    width: 12% !important;
+  }
+  body .class .menu {
+    padding: 0px 30px;
+  }
+  body .toolSharing > .content {
+    padding: 0 30px;
+  }
+  body .toolSharing > .content .right .list {
+    padding: 20px 20px !important;
+  }
+  body .toolSharing > .content .right .list .item {
+    width: 50% !important;
+  }
+  body .toolSharing > .content .right .list .item .img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  body .toolSharing > .content .right .list .item .img img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  body .toolSharing > .content .right .list .item .content .describe {
+    display: none;
+  }
+  body .aboutMe .top .content .center {
+    font-size: 3.2rem !important;
+  }
+  body .aboutMe .top .content .center > .top {
+    font-size: 2.2rem !important;
+  }
+  body .aboutMe .top .content .center > .center {
+    font-size: 2.2rem !important;
+  }
+  body .aboutMe .top .content .center > .center > span {
+    margin: 0 10px !important;
+  }
+  body .aboutMe .top .content .center .footer {
+    font-size: 1.6rem !important;
+  }
+  body .aboutMe > .content {
+    padding: 30px 30px !important;
+  }
+  body .aboutMe > .content .avatar {
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+  body .aboutMe > .content .content .footer .list .item {
+    flex-direction: column;
+  }
+  body .aboutMe > .content .content .footer .list .item .label {
+    margin: 0px;
+  }
+  body .aboutMe .skill {
+    padding: 0 30px;
+  }
+  body .aboutMe .skill .list .item .label {
+    width: 30% !important;
+  }
+  body .aboutMe .skill .list .item .value {
+    width: 70% !important;
+  }
+  body .footer {
+    text-align: center;
+  }
+  body .footer div div div:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  body .banner {
+    height: 260px !important;
+  }
+  body .banner .content {
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    padding: 0px !important;
+  }
+  body .banner .content .shake {
+    text-align: center;
+  }
+  body .banner .content .shake .describe {
+    display: none;
+  }
+  body .banner .content .shake .button {
+    padding-top: 0px !important;
+  }
+}

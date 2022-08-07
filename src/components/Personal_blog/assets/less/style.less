@@ -1,0 +1,18 @@
+// 默认的主题颜色
+@primaryColor: var(--primaryColor, #f5f5f5); // 背景
+@primaryTextColor: var(--primaryTextColor, #2c2c32); // 字体
+@primarySideColor: var(--primarySideColor, #1a1a1a); // 侧边
+@primarySideTextColor: var(--primarySideTextColor, #f5f5f5); // 侧边字体
+@filmColorLeft: var(--filmColorLeft, #f5f5f5); // 胶片左边阴影
+@filmColorRight: var(--filmColorRight, #f5f5f5); // 胶片右边阴影
+@active: var(--active, #f5f5f5); // 胶片右边阴影
+// 导出变量
+:export {
+  name: "less";
+  primaryColor: @primaryColor;
+  primaryTextColor: @primaryTextColor;
+  primarySideColor: @primarySideColor;
+  primarySideTextColor: @primarySideTextColor;
+  filmColorLeft: @filmColorLeft;
+  active: @active;
+}
